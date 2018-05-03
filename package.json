@@ -1,0 +1,19 @@
+{
+  "name": "short-link",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0-beta.42",
+    "core-js": "^2.5.5",
+    "meteor-node-stubs": "^0.3.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
